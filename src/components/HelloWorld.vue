@@ -8,7 +8,9 @@
     <md-button @click="handleClick">点我</md-button>
     <md-button @click="actDialog.open = true">点我</md-button>
     <md-button @click="succeedConfirm">成功弹窗</md-button>
-    
+    <md-button type="ghost">Ghost</md-button>
+    <md-button type="ghost" disabled>Ghost</md-button>
+    <md-button type="ghost-primary">Ghost-P</md-button>
     <md-dialog
       title="窗口标题"
       :closable="false"

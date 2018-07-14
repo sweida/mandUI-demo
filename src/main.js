@@ -3,10 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import rem from './utils/rem'
 
 import mandMobile from 'mand-mobile'
 import 'mand-mobile/lib/mand-mobile.css'
-
+// import 'lib-flexible/flexible.js'
 Vue.use(mandMobile)
 
 Vue.config.productionTip = false
@@ -21,3 +22,4 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+

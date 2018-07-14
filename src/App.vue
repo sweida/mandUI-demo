@@ -8,11 +8,12 @@
 export default {
   name: 'App'
 }
+
 </script>
 
 <style>
 body{
-  font-size: .32rem
+  font-size: 16px;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
